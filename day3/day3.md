@@ -13,6 +13,4 @@ commutative law is not valid in the float count.
 
 PPT p26  interesting 
 
-
-
 ------note-------
