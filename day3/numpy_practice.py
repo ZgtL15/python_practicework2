@@ -79,29 +79,13 @@ np.array_equal(A,B)
 
 ###m. How to convert an integer (32 bits) array into a float (32 bits) in place?
 Z = np.arange(10, dtype=np.int32)
+Z_float = np.float32(Z)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-)
-
-
-
-
-
-
-
+###n. How to get the diagonal of a dot product?
+A = np.arange(9).reshape(3,3)
+B = A + 1
+C = np.dot(A,B)
+D=np.diag(C)
 
 
 
