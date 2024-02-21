@@ -13,7 +13,7 @@ It is really hard!
 /home/guoxi/project/02.course/day2-bestpractices-1/animals
 
 ###test code####
- import animals
+import animals
 
 harmless_birds = animals.harmless.Birds()
 harmless_birds.printMembers()
@@ -121,5 +121,5 @@ ok, line_profile is more easy to ready
 
 So, euler72.py optimise speed at line 52
 
-how to optimise matmult.py? maybe later i can do it
+how to optimise matmult.py? See it in day3!
 
