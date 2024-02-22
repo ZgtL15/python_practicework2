@@ -2,7 +2,7 @@
 ----shell command----- 
 pip install -U sphinx
 /home/guoxi/.local/bin/sphinx-quickstart
-sphinx-build -b html sourcedir builddir
+/home/guoxi/.local/bin/sphinx-build -b html source build/html
 
 
 """
