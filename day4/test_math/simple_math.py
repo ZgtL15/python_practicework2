@@ -6,11 +6,13 @@ def simple_add(a,b):
     return a+b
 """
 the function to get the sum of a and b
-input 
+parameters
+---------- 
 a:integer or float
 b:integer or float
 
 return
+----------
 a+b: the sum of a and b 
 
 also the 
