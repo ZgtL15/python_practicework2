@@ -1,8 +1,8 @@
 """
 ----shell command----- 
 pip install -U sphinx
-sphinx-quickstart
-
+/home/guoxi/.local/bin/sphinx-quickstart
+sphinx-build -b html sourcedir builddir
 
 
 """
