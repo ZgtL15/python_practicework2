@@ -1,0 +1,197 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Open Food Facts | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Explore nutrition facts from foods around the world" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="keywords" content="earth and nature,alcohol,nutrition" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="JOTq7b&#x2B;qRb6wVXeH7awSuw==" type="text/javascript">
+    window["pageRequestStartTime"] = 1708695545952;
+    window["pageRequestEndTime"] = 1708695546046;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"
+    rel="stylesheet" media="print" id="async-google-font-3" />
+  <script nonce="JOTq7b&#x2B;qRb6wVXeH7awSuw==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2", "async-google-font-3"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+  <script nonce="JOTq7b&#x2B;qRb6wVXeH7awSuw==" src="https://www.google.com/recaptcha/enterprise.js?render=6LcW02cpAAAAAJlaJemsQQEwAiTEYB4aR6FYE_rD&waf=session" async defer></script>
+   <style>.grecaptcha-badge { visibility: hidden; }</style>
+
+    <link rel="canonical" href="https://www.kaggle.com/datasets/openfoodfacts/world-food-facts" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=eea5e317692543d9a362" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=5ce84b0c951d07edead5" />
+  
+    
+ 
+      <script nonce="JOTq7b&#x2B;qRb6wVXeH7awSuw==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="JOTq7b&#x2B;qRb6wVXeH7awSuw==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="JOTq7b&#x2B;qRb6wVXeH7awSuw==" async src="https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q"></script>
+
+  
+    
+    <meta property="og:url" content="https://www.kaggle.com/datasets/openfoodfacts/world-food-facts" />
+    <meta property="og:title" content="Open Food Facts" />
+    <meta property="og:description" content="Explore nutrition facts from foods around the world" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/20/4275/4742973e368043b62d4392808ea23418/dataset-card.png?t=2023-06-26-13-10-47" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+        <meta name="twitter:creator" content="@openfoodfacts" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+            <script nonce="JOTq7b+qRb6wVXeH7awSuw==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"Open Food Facts","description":"- Want to play with food ? We now have a list of AI tasks that have a real-world impact on food transparency 💪\nhttps://github.com/openfoodfacts/openfoodfacts-ai\n\n- You can [donate to Open Food Facts to support hosting the servers, help with general costs][2]…We're a volunteer-run organisation, and every little helps (NB: we don't accept food industry donation)\n\n![Open Food Facts] (https://en.wiki.openfoodfacts.org/images/6/61/Gsoc-off.450x225.png)\n\n- We're part of Google's Summer of Code 2018. We have cool machine learning and data science projects, and [are looking both for students and additional mentors][1].\n\n### A food products database\n\n[Open Food Facts](http://world.openfoodfacts.org/) is a free, open, collbarative database of food products from around the world, with ingredients, allergens, nutrition facts and all the tidbits of information we can find on product labels. \n\n### Made by everyone\n\nOpen Food Facts is a non-profit association of volunteers.\n5000+ contributors like you have added 600 000+ products from 150 countries using our <a href=\"https://play.google.com/store/apps/details?id=org.openfoodfacts.scanner\">Android</a>, <a href=\"https://itunes.apple.com/app/open-food-facts/id588797948\">iPhone</a> or Windows Phone app or their camera to scan barcodes and upload pictures of products and their labels.\n\n### For everyone\n\nData about food is of public interest and has to be open. The [complete database](https://world.openfoodfacts.org/data) is published as open data and can be reused by anyone and for any use. Check-out the cool reuses or make your own!\n\n### Dataset structure\n\nThe dataset contains a single table, `FoodFacts`, in CSV form in `FoodFacts.csv` and in SQLite form in `database.sqlite`.\n\nThe columns in `Open Food Facts` are as follows:\n\n - **code** (text)\n - **url** (text)\n - **creator** (text)\n - **created\\_t** (text)\n - **created\\_datetime** (text)\n - **last\\_modified\\_t** (text)\n - **last\\_modified\\_datetime** (text)\n - **product\\_name** (text)\n - **generic\\_name** (text)\n - **quantity** (text)\n - **packaging** (text)\n - **packaging\\_tags** (text)\n - **brands** (text)\n - **brands\\_tags** (text)\n - **categories** (text)\n - **categories\\_tags** (text)\n - **categories\\_en** (text)\n - **origins** (text)\n - **origins\\_tags** (text)\n - **manufacturing\\_places** (text)\n - **manufacturing\\_places\\_tags** (text)\n - **labels** (text)\n - **labels\\_tags** (text)\n - **labels\\_en** (text)\n - **emb\\_codes** (text)\n - **emb\\_codes\\_tags** (text)\n - **first\\_packaging\\_code\\_geo** (text)\n - **cities** (text)\n - **cities\\_tags** (text)\n - **purchase\\_places** (text)\n - **stores** (text)\n - **countries** (text)\n - **countries\\_tags** (text)\n - **countries\\_en** (text)\n - **ingredients\\_text** (text)\n - **allergens** (text)\n - **allergens\\_en** (text)\n - **traces** (text)\n - **traces\\_tags** (text)\n - **traces\\_en** (text)\n - **serving\\_size** (text)\n - **no\\_nutriments** (numeric)\n - **additives\\_n** (numeric)\n - **additives** (text)\n - **additives\\_tags** (text)\n - **additives\\_en** (text)\n - **ingredients\\_from\\_palm\\_oil\\_n** (numeric)\n - **ingredients\\_from\\_palm\\_oil** (numeric)\n - **ingredients\\_from\\_palm\\_oil\\_tags** (text)\n - **ingredients\\_that\\_may\\_be\\_from\\_palm\\_oil\\_n** (numeric)\n - **ingredients\\_that\\_may\\_be\\_from\\_palm\\_oil** (numeric)\n - **ingredients\\_that\\_may\\_be\\_from\\_palm\\_oil\\_tags** (text)\n - **nutrition\\_grade\\_uk** (numeric)\n - **nutrition\\_grade\\_fr** (text)\n - **pnns\\_groups\\_1** (text)\n - **pnns\\_groups\\_2** (text)\n - **states** (text)\n - **states\\_tags** (text)\n - **states\\_en** (text)\n - **main\\_category** (text)\n - **main\\_category\\_en** (text)\n - **image\\_url** (text)\n - **image\\_small\\_url** (text)\n - **energy\\_100g** (numeric)\n - **energy\\_from\\_fat\\_100g** (numeric)\n - **fat\\_100g** (numeric)\n - **saturated\\_fat\\_100g** (numeric)\n - **butyric\\_acid\\_100g** (numeric)\n - **caproic\\_acid\\_100g** (numeric)\n - **caprylic\\_acid\\_100g** (numeric)\n - **capric\\_acid\\_100g** (numeric)\n - **lauric\\_acid\\_100g** (numeric)\n - **myristic\\_acid\\_100g** (numeric)\n - **palmitic\\_acid\\_100g** (numeric)\n - **stearic\\_acid\\_100g** (numeric)\n - **arachidic\\_acid\\_100g** (numeric)\n - **behenic\\_acid\\_100g** (numeric)\n - **lignoceric\\_acid\\_100g** (numeric)\n - **cerotic\\_acid\\_100g** (numeric)\n - **montanic\\_acid\\_100g** (numeric)\n - **melissic\\_acid\\_100g** (numeric)\n - **monounsaturated\\_fat\\_100g** (numeric)\n - **polyunsaturated\\_fat\\_100g** (numeric)\n - **omega\\_3\\_fat\\_100g** (numeric)\n - **alpha\\_linolenic\\_acid\\_100g** (numeric)\n - **eicosapentaenoic\\_acid\\_100g** (numeric)\n - **docosahexaenoic\\_acid\\_100g** (numeric)\n - **omega\\_6\\_fat\\_100g** (numeric)\n - **linoleic\\_acid\\_100g** (numeric)\n - **arachidonic\\_acid\\_100g** (numeric)\n - **gamma\\_linolenic\\_acid\\_100g** (numeric)\n - **dihomo\\_gamma\\_linolenic\\_acid\\_100g** (numeric)\n - **omega\\_9\\_fat\\_100g** (numeric)\n - **oleic\\_acid\\_100g** (numeric)\n - **elaidic\\_acid\\_100g** (numeric)\n - **gondoic\\_acid\\_100g** (numeric)\n - **mead\\_acid\\_100g** (numeric)\n - **erucic\\_acid\\_100g** (numeric)\n - **nervonic\\_acid\\_100g** (numeric)\n - **trans\\_fat\\_100g** (numeric)\n - **cholesterol\\_100g** (numeric)\n - **carbohydrates\\_100g** (numeric)\n - **sugars\\_100g** (numeric)\n - **sucrose\\_100g** (numeric)\n - **glucose\\_100g** (numeric)\n - **fructose\\_100g** (numeric)\n - **lactose\\_100g** (numeric)\n - **maltose\\_100g** (numeric)\n - **maltodextrins\\_100g** (numeric)\n - **starch\\_100g** (numeric)\n - **polyols\\_100g** (numeric)\n - **fiber\\_100g** (numeric)\n - **proteins\\_100g** (numeric)\n - **casein\\_100g** (numeric)\n - **serum\\_proteins\\_100g** (numeric)\n - **nucleotides\\_100g** (numeric)\n - **salt\\_100g** (numeric)\n - **sodium\\_100g** (numeric)\n - **alcohol\\_100g** (numeric)\n - **vitamin\\_a\\_100g** (numeric)\n - **beta\\_carotene\\_100g** (numeric)\n - **vitamin\\_d\\_100g** (numeric)\n - **vitamin\\_e\\_100g** (numeric)\n - **vitamin\\_k\\_100g** (numeric)\n - **vitamin\\_c\\_100g** (numeric)\n - **vitamin\\_b1\\_100g** (numeric)\n - **vitamin\\_b2\\_100g** (numeric)\n - **vitamin\\_pp\\_100g** (numeric)\n - **vitamin\\_b6\\_100g** (numeric)\n - **vitamin\\_b9\\_100g** (numeric)\n - **vitamin\\_b12\\_100g** (numeric)\n - **biotin\\_100g** (numeric)\n - **pantothenic\\_acid\\_100g** (numeric)\n - **silica\\_100g** (numeric)\n - **bicarbonate\\_100g** (numeric)\n - **potassium\\_100g** (numeric)\n - **chloride\\_100g** (numeric)\n - **calcium\\_100g** (numeric)\n - **phosphorus\\_100g** (numeric)\n - **iron\\_100g** (numeric)\n - **magnesium\\_100g** (numeric)\n - **zinc\\_100g** (numeric)\n - **copper\\_100g** (numeric)\n - **manganese\\_100g** (numeric)\n - **fluoride\\_100g** (numeric)\n - **selenium\\_100g** (numeric)\n - **chromium\\_100g** (numeric)\n - **molybdenum\\_100g** (numeric)\n - **iodine\\_100g** (numeric)\n - **caffeine\\_100g** (numeric)\n - **taurine\\_100g** (numeric)\n - **ph\\_100g** (numeric)\n - **fruits\\_vegetables\\_nuts\\_100g** (numeric)\n - **collagen\\_meat\\_protein\\_ratio\\_100g** (numeric)\n - **cocoa\\_100g** (numeric)\n - **chlorophyl\\_100g** (numeric)\n - **carbon\\_footprint\\_100g** (numeric)\n - **nutrition\\_score\\_fr\\_100g** (numeric)\n - **nutrition\\_score\\_uk\\_100g** (numeric)\n\n\n  [1]: https://summerofcode.withgoogle.com/organizations/5282542639382528/\n  [2]: https://www.helloasso.com/associations/open-food-facts/formulaires/1/widget/en","url":"https://www.kaggle.com/openfoodfacts/world-food-facts","version":5,"keywords":["subject, earth and nature","subject, health and fitness, food, alcohol","subject, health and fitness, health, nutrition"],"license":{"@type":"CreativeWork","name":"Database: Open Database, Contents: Database Contents","url":"http://opendatacommons.org/licenses/dbcl/1.0/"},"identifier":["20"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Organization","name":"Open Food Facts","url":"https://www.kaggle.com/organizations/openfoodfacts","image":"https://storage.googleapis.com/kaggle-organizations/373/thumbnail.png%3Fr=678"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/openfoodfacts/world-food-facts/download?datasetVersionNumber=5","contentSize":"114050691 bytes"}],"commentCount":7,"dateModified":"2017-09-18T12:27:58.027Z","discussionUrl":"https://www.kaggle.com/openfoodfacts/world-food-facts/discussion","alternateName":"Explore nutrition facts from foods around the world","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/20/4275/4742973e368043b62d4392808ea23418/dataset-card.png?t=2023-06-26-13-10-47","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":7},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":65686},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":456349},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":1189}]}</script>
+        
+
+  
+    
+
+  
+    
+
+
+    <script nonce="JOTq7b&#x2B;qRb6wVXeH7awSuw==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="JOTq7b&#x2B;qRb6wVXeH7awSuw==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="JOTq7b+qRb6wVXeH7awSuw==" src="/static/assets/runtime.js?v=814d427b98e8fcf70f18" data-turbolinks-track="reload"></script>
+  <script nonce="JOTq7b+qRb6wVXeH7awSuw==" src="/static/assets/vendor.js?v=274d16e4fdf1faff3fbe" data-turbolinks-track="reload"></script>
+  <script nonce="JOTq7b+qRb6wVXeH7awSuw==" src="/static/assets/app.js?v=e5c2fc8fc34e6aa0b9be" data-turbolinks-track="reload"></script>
+    <script nonce="JOTq7b&#x2B;qRb6wVXeH7awSuw==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+<div id="site-container"></div>
+
+<div id="site-body" class="hide">
+    
+
+
+<script nonce="JOTq7b&#x2B;qRb6wVXeH7awSuw==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: ["Safe.js"],
+    });
+</script>
+<script type="text/javascript" nonce="JOTq7b&#x2B;qRb6wVXeH7awSuw==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
