@@ -60,11 +60,9 @@ from scipy import stats
 import numpy as np
 
 # Test if two sets of (independent) random data comes from the same distribution
-
-
-
-
-
-
+tats.norm.rvs(size=1000)
+var2 = stats.norm.rvs(size=1000)
+stats.ttest_ind(var1,var2)
+#TtestResult(statistic=-0.3934207168361582, pvalue=0.694050746846733, df=1998.0)
 
 
